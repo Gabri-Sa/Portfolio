@@ -22,6 +22,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 h2 {
   font-size: 64px;
@@ -53,6 +54,14 @@ p {
   font-size: 24px;
 }
 
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  ransition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -69,4 +78,26 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.project-description {
+  padding: 160px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
