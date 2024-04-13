@@ -104,12 +104,15 @@ img {
   font-weight: 400;
   text-align: center;
   cursor: pointer;
-  background-color: var(--secondary-color);
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: color 0.15s ease-in-out;
 }
 
 .btn-branding {
-  background-color: var(--secondary-color);
+  background: var(--branding-color);
   border-radius: 4px;
+  color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -130,6 +133,10 @@ img {
 
 .logo {
   max-height: 40px;
+}
+
+.my-photo {
+  border-radius: 15px 50px 30px 5px;
 }
 
 nav {
