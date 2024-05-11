@@ -135,8 +135,8 @@ img {
   max-height: 40px;
 }
 
-.my-photo {
-  border-radius: 15px 50px 30px 5px;
+.my-profile-photo {
+  max-width: 78%;
 }
 
 nav {
