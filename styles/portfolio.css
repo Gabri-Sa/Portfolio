@@ -101,6 +101,9 @@ img {
   padding: 3px;
   margin: 5px;
 }
+.row {
+  margin-bottom: 10px;
+}
 
 .btn {
   display: inline-block;
