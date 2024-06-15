@@ -97,7 +97,7 @@ img {
 .img-fluid {
   max-width: 100%;
   height: auto;
-  border: 5px solid #393939;
+  border: 5px solid #8e8e8e;
   padding: 3px;
   margin: 5px;
 }
